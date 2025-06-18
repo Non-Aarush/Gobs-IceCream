@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobs&Clanks - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="db">
+    <header>
+        <h1>Gobs&Clanks</h1>
+        <nav>
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="plot.html" class="nav-btn">PLOT!!!</a>
+            <a href="smile.html" class="nav-btn">:D</a>
+        </nav>
+    </header>
+
+    <main class="hm">
+        <div class="ic">
+            <img src="logo.png" alt="Gobs&Clanks Image" class="mi">
+        </div>
+        
+        <div class="cc">
+            <p class="hp">Hallo Peeps , i made this website for my godot game , the journey started when i decided to take part in Juice , A HackClub event , i made a 2D game and it got approved ,do check it out and tell me if you like my game.</p>
+        </div>
+        
+        <div class="bc">
+            <button id="clickMe" class="ab">Click Me :O</button>
+            <a href="https://non-aarush.itch.io/gobs-clanks" class="ab pb" target="_blank">Play Now</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>Aarush is watching :O ~ Made for Swirl, HackClub</p>
+    </footer>
+
+    <script>
+        document.getElementById('clickMe').addEventListener('click', function() {
+            this.textContent = 'non.aarush@gmail.com';
+            this.onclick = function() {
+                window.location.href = 'mailto:non.aarush@gmail.com';
+            };
+        });
+    </script>
+</body>
+</html>
